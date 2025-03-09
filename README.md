@@ -29,6 +29,7 @@ Objective: Show how to initiate an SSH connection between an Azure Windows VM an
 <br>
 •	In Wireshark: Filtering for ssh will show SSH traffic, but since SSH encrypts communication, you won’t see the actual commands—only the fact that an SSH session is active.
 <br>
-<img width="1512" alt="Step 5a - SSH" src="https://github.com/user-attachments/assets/1674d3a6-b241-45c8-851b-33c764dfba6b" />
-<img width="1512" alt="Step 5b - SSH" src="https://github.com/user-attachments/assets/28183f48-cd89-42da-9a78-71cd9ad6230a" />
-<img width="544" alt="Step 5c - SSH" src="https://github.com/user-attachments/assets/5c754751-2354-4adf-a25a-35c7e4fc541c" />
+
+<img width="1512" alt="Step 5a - SSH" src="https://github.com/user-attachments/assets/87a769b9-da10-4142-b94d-0cae56e622f1" />
+<img width="1512" alt="Step 5b - SSH" src="https://github.com/user-attachments/assets/0ab654a4-225f-4198-8c22-29b30e60ddbf" />
+<img width="544" alt="Step 5c - SSH" src="https://github.com/user-attachments/assets/044b1028-7958-424c-9397-3bb27f0ab289" />
