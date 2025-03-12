@@ -57,3 +57,19 @@ Objective: Show how to initiate an SSH connection between an Azure Windows VM an
 <img width="1512" alt="Step 5a - SSH" src="https://github.com/user-attachments/assets/87a769b9-da10-4142-b94d-0cae56e622f1" />
 <img width="1512" alt="Step 5b - SSH" src="https://github.com/user-attachments/assets/0ab654a4-225f-4198-8c22-29b30e60ddbf" />
 <img width="544" alt="Step 5c - SSH" src="https://github.com/user-attachments/assets/044b1028-7958-424c-9397-3bb27f0ab289" />
+
+
+<h2>Summary & Significance</h2>
+
+<h3>What You Did</h3>
+	•	Used Wireshark to capture and filter SSH traffic (TCP port 22). <br>
+	•	Established an SSH connection from the Windows 10 VM to the Ubuntu VM using PowerShell. <br>
+	•	Observed the encrypted SSH traffic in Wireshark while interacting with the remote Linux system. <br>
+	•	Closed the SSH session properly using the exit command. <br>
+
+<h3>Why This Matters</h3>
+	•	SSH is a secure protocol for remote administration – understanding how it works is essential for managing cloud resources and Linux systems. <br>
+	•	Wireshark helps analyze SSH activity – though SSH encrypts data, capturing the packets still allows you to verify connections, detect unauthorized access attempts, and troubleshoot connectivity. <br>
+	•	Filtering specific protocol traffic (like SSH) is a key skill in network security – it helps administrators and security professionals monitor and analyze network behavior efficiently. <br>
+ <br>
+By completing this tutorial, you’ve gained hands-on experience with using SSH in Azure, analyzing encrypted traffic in Wireshark, and understanding how secure remote connections work in a cloud environment
